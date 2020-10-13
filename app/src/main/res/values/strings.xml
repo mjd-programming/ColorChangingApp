@@ -1,3 +1,32 @@
 <resources>
     <string name="app_name">Color Changing App</string>
+    <string name="header_text">Select a color to open the Canvas.</string>
+    <string-array name="colors">
+        <item>red</item>
+        <item>blue</item>
+        <item>green</item>
+        <item>cyan</item>
+        <item>fuchsia</item>
+        <item>yellow</item>
+        <item>aqua</item>
+        <item>maroon</item>
+        <item>lime</item>
+        <item>silver</item>
+        <item>purple</item>
+        <item>olive</item>
+    </string-array>
+    <string-array name="colors_parser">
+        <item>red</item>
+        <item>blue</item>
+        <item>green</item>
+        <item>cyan</item>
+        <item>fuchsia</item>
+        <item>yellow</item>
+        <item>aqua</item>
+        <item>maroon</item>
+        <item>lime</item>
+        <item>silver</item>
+        <item>purple</item>
+        <item>olive</item>
+    </string-array>
 </resources>

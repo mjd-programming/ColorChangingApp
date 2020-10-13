@@ -6,12 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".PaletteActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/header_text"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:padding="20dp"/>
 
     <GridView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/grid_view"
         android:numColumns="3"
-        android:padding="15dp"/>
+        android:paddingTop="100dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
